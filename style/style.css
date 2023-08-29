@@ -4,7 +4,7 @@
    font-family: Roboto, sans-serif;
 }
 
-header {
+#navbar {
     background-color: #1F2937;
     display: flex;
     align-items: center;
@@ -20,7 +20,6 @@ li a {
     display: block;
     color: #e5e7eb;
     padding: 8px 16px;
-    border: 5px solid  purple ;
     font-size: 18px;
 }
 li a:hover {
@@ -32,13 +31,11 @@ li a:hover {
     color: #f9faf8;
     font-size: 24px;
     padding: 8px 16px;
-    border: 5px solid  purple ;
+    }
 
-}
-header ul {
-    background-color: #1F2937;
-    display: flex;
+#navbar ul {
     
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -63,4 +60,8 @@ row4 {
 
 footer {
     background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 12px;
+    text-align: center;
+    padding: 36px;
 }
