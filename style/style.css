@@ -45,11 +45,16 @@ li a:hover {
     background-color: #1F2937;
     color: #f9faf8 ;
     display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     padding: 50px 100px;
 }
 #titlebox {
     margin-right: 25px ;
     font-size: 18px;
+    width: 40vw;
+    height: 220px;
+    
 }
 
 #titlebox h1 {
@@ -75,6 +80,8 @@ li a:hover {
 }
 #gallery {
     display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
     justify-content: space-evenly;
 }
 
@@ -112,6 +119,23 @@ li a:hover {
 }
 
 #row4 {
+    padding: 50px;
+}
+
+#callToAction {
+    background-color: #3882f6;
+    color: #f9faf8 ;
+    border-radius: 15px;
+    width: 60vw;
+    margin: auto;
+    padding: 30px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#callToAction .button {
+    border: 2px solid #f9faf8;
+    margin-top: 0;
 
 }
 
