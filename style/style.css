@@ -70,6 +70,7 @@ li a:hover {
 #row2 {
     color: #1F2937;
     margin-bottom: 100px;
+    padding: 0 100px;
 
 }
 #gallery {
@@ -97,6 +98,17 @@ li a:hover {
 
 #row3 {
     background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 100px;
+}
+#row3 #quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+#row3 #signature {
+    font-weight: bold;
+    text-align: end;
 }
 
 #row4 {
