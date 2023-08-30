@@ -54,6 +54,7 @@ li a:hover {
 
 #titlebox h1 {
     font-size: 48px;
+    font-weight: 900;
 }
 
 .button {
@@ -68,7 +69,30 @@ li a:hover {
 }
 #row2 {
     color: #1F2937;
+    margin-bottom: 100px;
 
+}
+#gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgbox {
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+.imgbox img {
+    border-radius: 15px;
+    max-height: 150px;
+}
+
+#row2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 25px;
 }
 
 #row3 {
